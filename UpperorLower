@@ -1,0 +1,10 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the character: ");
+        char ch = sc.next().charAt(0);
+       String  ans = (ch>='a' && ch<='z')?"lower case":"upper case";
+        System.out.println(ans);
+    }
+}
